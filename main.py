@@ -36,7 +36,8 @@ def active_players():
 if __name__ == "__main__":
     act_players = active_players()
     games = game_reader("list.csv")
-    game_statement(games)
+    game_statement(games) 
+    
 #TODO
 #Allow  for looping input for each name and validation 
 #Making the names a set **contains**
