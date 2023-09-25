@@ -23,6 +23,7 @@ def game_reader(game_file):
                 
     return games
 
+#gets input from user that determines who is active for this instance. Loops the input until user enters 'done'
 def active_players():
     act_players = []
     while True:
@@ -39,6 +40,5 @@ if __name__ == "__main__":
     game_statement(games) 
     
 #TODO
-#Allow  for looping input for each name and validation 
 #Making the names a set **contains**
-#Make A GitHub account
+
